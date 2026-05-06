@@ -1,0 +1,5 @@
+The evening follow-up also happened mostly through text due to scheduling difficulties. We exchanged updates on the explainer structure, technical accuracy, and how clearly the concepts were being communicated.
+
+The main feedback was to reduce repeated discussion of the original problem and instead focus more on explaining the core concepts behind constrained decoding, structured generation, and runtime parsing. Additional revisions were made to separate different failure modes more clearly and connect them to practical engineering improvements.
+
+We also improved the practical section by adding clearer recommendations for schema validation, layered error handling, runtime logging, and failure-specific retry strategies. The final version became more concise, easier to follow, and more focused on explaining the mechanics of function calling rather than only describing the artifact problem.

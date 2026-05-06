@@ -1,0 +1,5 @@
+The morning call was difficult to coordinate, so most of the discussion happened asynchronously over text instead of through a full live conversation. We mainly focused on clarifying the core systems question behind the MCP tool-calling failures I observed in my Conversion Engine.
+
+Initially, I treated malformed JSON outputs, schema failures, and `tool-not-found` errors as the same kind of issue. Through the text discussion, we refined the question to focus specifically on the distinction between constrained decoding and unconstrained structured generation during function calling.
+
+We also clarified why this distinction matters architecturally, since different decoding mechanisms produce different guarantees and require different retry and validation strategies. The final question became more focused on token-level function-calling behavior and reliability in MCP-based agent systems.
